@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chrysalis Web.icon.png-a669e0451543799f8374f8d9e2b964e2.stex"
+path="res://.import/index.icon.png-80a51be92d1da81ec2a07fd07b8b0e1c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://release/Chrysalis Web.icon.png"
-dest_files=[ "res://.import/Chrysalis Web.icon.png-a669e0451543799f8374f8d9e2b964e2.stex" ]
+source_file="res://release/Niasty.github.io/index.icon.png"
+dest_files=[ "res://.import/index.icon.png-80a51be92d1da81ec2a07fd07b8b0e1c.stex" ]
 
 [params]
 

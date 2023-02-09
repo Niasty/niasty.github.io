@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chrysalis Web.apple-touch-icon.png-61c88ed036bd9d446446213575ee8b00.stex"
+path="res://.import/index.apple-touch-icon.png-e75057bce6adb152dce13fddc19193e5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://release/Chrysalis Web.apple-touch-icon.png"
-dest_files=[ "res://.import/Chrysalis Web.apple-touch-icon.png-61c88ed036bd9d446446213575ee8b00.stex" ]
+source_file="res://release/Niasty.github.io/index.apple-touch-icon.png"
+dest_files=[ "res://.import/index.apple-touch-icon.png-e75057bce6adb152dce13fddc19193e5.stex" ]
 
 [params]
 
