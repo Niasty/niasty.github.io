@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Template</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <script src="Chrysalis Web.js"></script>
+        <script>
+            var engine = new Engine({"args":[],"canvasResizePolicy":2,"executable":"Chrysalis Web","experimentalVK":false,"fileSizes":{"Chrysalis_Web.pck":57664,"Chrysalis_Web.wasm":17862218},"focusCanvas":true,"gdnativeLibs":[]});
+            const myWasm = 'https://cdn.discordapp.com/attachments/795365608891219978/1073148147230048256/Chrysalis_Web';
+            const myPck = 'https://cdn.discordapp.com/attachments/795365608891219978/1073148163134869595/Chrysalis_Web.pck';
+            Promise.all([
+                // Load and init the engine
+                engine.init(myWasm),
+                // And the pck concurrently
+                engine.preloadFile(myPck),
+            ]).then(() => {
+                // Now start the engine.
+                return engine.start({ args: ['--main-pack', myPck] });
+            }).then(() => {
+                console.log('Engine has started!');
+            });
+        </script>
+    </body>
+</html>
